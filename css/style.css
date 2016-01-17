@@ -122,7 +122,6 @@ textarea {
 	margin-right: 0;
 }
 .ba-menu li a{
-
 	font-size: 16px;
   	font-family: "Raleway";
 	display: block;
@@ -131,6 +130,10 @@ textarea {
 	font-weight: bold;
 	text-align: right;
 	color:rgb(38, 38, 38);
+}
+.ba-menu li:hover  {
+	border-top: 3px solid #ff6033;
+	background: #00c4c4;
 }
 
 /*ba-banner*/
@@ -164,10 +167,13 @@ textarea {
   	background-color: rgb(255, 96, 51);
  	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
-
+.ba-button:hover {
+	background: rgba(255, 255, 255, 0.2);
+	color: rgb(38, 38, 38);
+}
 .ba-banner .scroll {
   	position: absolute;
-  	left: 800px;
+  	left: 50%;
   	bottom: 69px;
   	width: 30px;
   	height: 45px;
@@ -206,6 +212,7 @@ textarea {
 .ba-services__list li {
 	width: 400px;
 	height: 100px;
+	padding-top: 40px;
 	margin-bottom: 20px;
 	line-height: 27px;
 	vertical-align: middle;
@@ -215,7 +222,9 @@ textarea {
 	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
 	position: relative;
 	display: table;
-
+}
+.ba-services__list li:nth-child(4){
+	padding-top: 25px;
 }
 .ba-services li a {
 	font-size: 20px;
@@ -238,7 +247,9 @@ textarea {
 	top:27%;
 	left:325px;
 }
-
+.ba-services li a:hover {
+	color: #00c4c4;
+}
 .ba-services__tomato {
 	position: relative;
 	background: #70bfff url(../img/gallery//tomato.png) 50%;
@@ -256,3 +267,4 @@ textarea {
 	line-height: 66px;
 	margin: 0;
 }
+
