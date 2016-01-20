@@ -98,7 +98,7 @@ textarea {
 .ba-container{
 	padding-left: 15px;
 	padding-right: 15px;
-	max-width: 1200px;
+	width: 1200px;
 }
 .ba-fresh {
 	position: relative;
@@ -110,6 +110,7 @@ textarea {
 
 /*ba-header*/
 .ba-header {
+	padding-top: 30px;
 	height: 147px;
 	max-width: 100%;
 	font-size: 16px;
@@ -125,6 +126,7 @@ textarea {
 
 .ba-logo {
 	padding-left: 0;
+
 	vertical-align: middle;
 
 }
@@ -163,7 +165,7 @@ textarea {
 /*ba-banner*/
 .ba-banner {
 	width: 100%;
-	padding: 216px 0px 405px 0px;
+	padding: 150px 0px 350px 0px;
 }
 .ba-banner__title {
 	font-size: 50px;
