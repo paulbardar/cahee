@@ -234,6 +234,11 @@ textarea {
 		position: relative;
 	}
 }
+@media (max-width: 459px) {
+	.ba-about-us__textfield h2  {
+		margin-left: 20px;
+	}
+}
 
 /*ba-services*/
 .ba-services {
