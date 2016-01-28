@@ -319,6 +319,22 @@ textarea {
 		margin: 20px 20px;
 	}
 }
+@media (max-width: 779px) {
+	.ba-services {
+		padding: 20px 0;
+	}
+	.ba-services__list {
+		padding-left: 20px;
+		margin-top: 20px;
+	}
+	.ba-services__tomato {
+		background: none;
+		padding-left: 20px;
+		margin-bottom: 20px;
+		height: 120px;
+	}
+
+}
 
 /*ba-gallery*/
 .ba-gallery {
